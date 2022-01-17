@@ -27,7 +27,7 @@ We release three different version for each of the datasets:
 * Simple version: It only keeps the columns *tweet_id*, *full_text* and *final_label* from the previous version.
 
 You can find these files in the following repositories:
-* [Spain dataset](./es/)
+* [Spain dataset](./sp/)
 * [UK dataset](./uk/)
 * [Greece dataset](./gr/)
 
