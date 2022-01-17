@@ -7,7 +7,7 @@ The SentiMP-21 Dataset is a multilingual sentiment analysis dataset based on twe
 
 ## Dataset details
 
-The dataset containst 1500 tweets in three different languages: Greek (500 tweets), Spanish (500 tweets) and English (500 tweets). For each tweet we provide the following information:
+The dataset containst 1500 tweets from three different countries: Greece (500 tweets), Spain (500 tweets) and United Kingdom (500 tweets). For each tweet we provide the following information:
 * **tweet_id**: Which represents the identifier of each tweet.
 * **full_text**: Which containts the content of the tweet.
 * **mp_party**: Party to which the member of parliament who wrote the tweet belongs.
@@ -27,9 +27,9 @@ We release three different version for each of the datasets:
 * Simple version: It only keeps the columns *tweet_id*, *full_text* and *final_label* from the previous version.
 
 You can find these files in the following repositories:
-* [Spanish dataset](./es/)
-* [English dataset](./en/)
-* [Greek dataset](./gr/)
+* [Spain dataset](./es/)
+* [UK dataset](./uk/)
+* [Greece dataset](./gr/)
 
 ## Citation
 If you use this dataset, please cite:
