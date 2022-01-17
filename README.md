@@ -13,10 +13,10 @@ The dataset containst 1500 tweets in three different languages: Greek (500 tweet
 * **mp_party**: Party to which the member of parliament who wrote the tweet belongs.
 * **mp_name**: Name of the member of parliament who wrote the tweet.
 * **created_at**: Date of the tweet.
-* **label_i** : Annotator's i label ($i \in \{1,2,3\}$ for English and Greek and $i \in \{1,2,3,4,5\}$ for Spanish). It takes values in $\{-1,0,1,x\}$.
-* **majority_vote**: The result after applying the majority vote strategy to the annotators' partial labelling. When there is a tie we use the label "TIE". It takes values in $\{-1,0,1,TIE\}$.
-* **tie_break**:  We use this column to break ties in cases where there is a tie. Therefore, it is only completed when TIE appears in the *majority_vote* column. It takes values in $\{-1,0,1\}$.
-* **final_label**: It represents the final label. It is a combination between the *majority_vote* abd the *tie_break* columns. It takes values in $\{-1,0,1\}$.
+* **label_i** : Annotator's i label (i in {1,2,3} for English and Greek and i in {1,2,3,4,5} for Spanish). It takes values in {-1,0,1,x}.
+* **majority_vote**: The result after applying the majority vote strategy to the annotators' partial labelling. When there is a tie we use the label "TIE". It takes values in {-1,0,1,TIE}.
+* **tie_break**:  We use this column to break ties in cases where there is a tie. Therefore, it is only completed when TIE appears in the *majority_vote* column. It takes values in {-1,0,1}.
+* **final_label**: It represents the final label. It is a combination between the *majority_vote* abd the *tie_break* columns. It takes values in {-1,0,1}.
 
 ## Downloads
 
